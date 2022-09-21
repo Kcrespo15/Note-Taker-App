@@ -21,10 +21,14 @@
   ~~~
 
   ## Usage
-  To run this application, enter the following command in the command line:
-  ~~~
-  Node Server
-  ~~~
+  To access this application, visit the following URL: https://app-note-taker10.herokuapp.com/. Click the "Get Started" button to start a list of notes.
+  
+  
+  ![Screenshot 2022-09-20 212157](https://user-images.githubusercontent.com/109176118/191394038-988d130d-9f50-48aa-8556-0dc0f699e609.png)
+
+<img width="572" alt="Screenshot 2022-09-20 212230" src="https://user-images.githubusercontent.com/109176118/191394053-54f68daf-f01d-4e18-b75a-38f87c65f921.png">
+
+<img width="581" alt="Screenshot 2022-09-20 212314" src="https://user-images.githubusercontent.com/109176118/191394062-02f93fe1-a94f-4ed6-a031-875591f3362b.png">
 
   N/A
 
