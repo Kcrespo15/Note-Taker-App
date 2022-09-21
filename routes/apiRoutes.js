@@ -13,7 +13,7 @@ router.get('/notes', (req,res) => {
 router.post('/notes',(req,res) =>{
    req.body.id = Math.floor(Math.random() * 10000);
    notes.push(req.body);
-   fs.writeFile('./db/db.johnson', JSON.stringify(notes) ,(err) => {
+   fs.writeFile('./db/db.json', JSON.stringify(notes) ,(err) => {
     if (err) {
         throw err;
     }
@@ -22,7 +22,7 @@ router.post('/notes',(req,res) =>{
 })
 
 // delete route to delete notes
-router.delete('/notes', (req,res) =>{
+router.delete('/notes/:id', (req,res) =>{
 for (let i = 0; i < notes.length; i++) {
     if (req.params.id = notes[i].id) {
         notes.splice(i, 1)
